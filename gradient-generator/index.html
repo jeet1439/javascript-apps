@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient-generator</title>
+    <style>
+        section {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        body{
+            height: 100vh;
+            background-image: linear-gradient(to right, #052979, #008793);
+        }
+        .copycode{
+            background-color: rgba(255, 255, 255, .14);
+            padding: 10px 8px;
+            border-radius: 3px;
+        }
+        #myBtn, #myBtn2{
+            border-radius: 4px;
+            border: none;
+            padding: 5px 15px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="buttons">
+            <button id="myBtn">#051937</button>
+            <button id="myBtn2">#008793</button>
+        </div>
+        <h2>copy your code here</h2>
+        <div class="copycode">
+            background-image: linear-gradient(to right, #052979, #008793);
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
