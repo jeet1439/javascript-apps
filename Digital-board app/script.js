@@ -24,8 +24,8 @@ highlightColor.addEventListener('change',(e) =>{
     ctx.fillStyle = e.target.value;
     ctx.lineCap = 'round';
 
-    ctx.lineWidth = 7;
-    ctx.shadowBlur = 10;
+    ctx.lineWidth = 6;
+    ctx.shadowBlur = 8;
     ctx.shadowColor = e.target.value;
 })
         

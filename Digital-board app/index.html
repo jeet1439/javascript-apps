@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital-board</title>
     <style>
+        body {
+            margin: 0;
+            padding: 0; 
+            height: 100vh; 
+            background-image: url('./resources/backgroungimg.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
         .main{
             position: absolute;
             top: 50%;
@@ -12,13 +21,14 @@
             transform: translate(-50%, -50%);
         }
         .canvas{
-            border: 2px solid black;
+            border: 1px solid black;
         }
         .top, .bottom{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             margin: 15px 0 10px 0;
+            color: #fff;
         }
         .block, input, select, button{
             width: 80%;
@@ -67,7 +77,7 @@
         <div class="bottom">
             <button type="button" class="btn btn-danger" id="clearButton">clear</button>
             <button type="button" class="btn btn-success" id="saveButton">save & download</button>
-            <button type="button" class="btn btn-warning" id="retriveButton">retrive saved signature</button>
+            <button type="button" class="btn btn-warning" id="retriveButton">retrive saved slide</button>
         </div>   
     </div>
     <script src="script.js"></script>
