@@ -8,12 +8,14 @@
 }
 
 body {
-  background: #1e1e1e;
-  color: #171717;
+  background-image: url('./resources/default.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
 .container {
-  background-color: #fff;
+  background-color:rgba(255, 255, 255, 0.5);;
   color: #171717;
   padding: 2rem;
   width: 40%;
@@ -116,7 +118,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   background: #1e1e1e;
-  background-color: #f7f7f7;
+  background-color:rgba(255, 255, 255, 0.4);
   color: #000;
   padding: 1rem;
   border-radius: 10px;
